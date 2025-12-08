@@ -58,7 +58,9 @@ to another area and drop the cube.
 * Click on "Use this template" then "Create a new repository"
 * Clone your new repository
 * Create a virtual environment `python -m venv .venv` (Optional)
-* Activate the virtual environment `source .venv/bin/activate` (Optional)
+* Activate the virtual environment: (Optional)
+  * macOS/Linux: `source .venv/bin/activate`
+  * Windows: `.venv\Scripts\activate`
 * Install dependencies `pip install -r requirements.txt`
 * Run the simulation `python simulation.py`
 
